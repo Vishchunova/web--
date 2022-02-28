@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000; /*описание товапа и тд*/
+  
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  font: bold 3em Arial, sans-serif;
+  font: bold 3em Arial, sans-serif;
+    color: #f0f0f0; /* Цвет текста, совпадает с цветом фона */
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+
+				 
+
+}
+
+h2 {
+  border-bottom: 2px solid #000000; /*полоски*/
+  padding-bottom: 12px;
+
+
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: 	#696969 no-repeat center url("img/gloevk-bg.jpg");
+  background-size: cover;
+  color: #ffffff; /*быт техника*/
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px; 
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 12%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: left;
+  border: 2px solid gray;
+    padding: 25px;
+}
+
+.feature-furniture 
+  
+  background-image: url("img/furniture.svg");
+}
+
+.feature-lighting {
+  
+  background-image: url("img/lighting.svg");
+}
+
+.feature-accessories {
+  
+  background-image: url("img/accessories.svg");
+}
+.feature-robot {
+  
+  background-image: url("img/accessories.svg");
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;  
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+   /* цвет кв --> */
+  color: #000000; /* надпись кв*/
+}
+
+.standard {
+  border-color: #847462; /*цвет кв*/
+  color: #000000; /*напись квад*/
+}
+
+/* Добавьте правило для класса vip сюда */
+.vip
+{
+  border-color:#ffb864; /*квадраты*/
+  color: #000000;
+  }
+
+.site-footer {
+  min-width: 550px;
+  background-color: #696969; /*фон внизу*/
+  color: #ffffff; /*цвет внизу на фоне*/
+
+  
+}
+
+.site-footer .container {
+
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+
