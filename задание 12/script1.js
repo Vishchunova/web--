@@ -1,9 +1,18 @@
-var groceries = ['чай', 'шпроты', 'печенье', 'сахар', 'чипсы'];
-var shoppingList = '';
+var age = 5;
+var ageGroup;
 
-for (var i = 0; i < groceries.length; i++) {
-  if (i >= 1) {
-    shoppingList += ', ';
-  }
-  shoppingList += groceries[i];
+if (age <= 1) {
+  console.log(ageGroup = 'Щенки');
 }
+
+if (age > 1 && age <= 3) {
+  console.log(ageGroup = 'Молодые собаки');
+  }
+  
+if (age > 3 && age <= 7) {
+  console.log(ageGroup = 'собаки средних лет');
+  }
+
+if (age > 7) {
+  console.log(ageGroup = 'Почтенные таксоны');
+  }
