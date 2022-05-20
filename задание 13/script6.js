@@ -1,22 +1,22 @@
-var  getData  =  функция  ( ключи ,  значения )  {
-  вар  новый массив  =  [ ] ;
+var getData = function (keys, values) {
+  var newArray = [];
 
-  for  ( var  i  =  0 ;  i  <=  values ​​. length  -  1 ;  i ++ )  {
+  for (var i = 0; i <= values.length - 1; i++) {
 
-    вар  новыйОбъект  =  { } ;
+    var newObject = {};
     
-    если  ( значения [ i ] . длина  -  1  <=  ключи . длина  -  1 )  {
-      длина  переменной  =  значения [ i ] . длина  -  1 ;
-    }  иначе  {
-      длина  =  ключи . длина  -  1
+    if (values[i].length - 1 <= keys.length - 1) {
+      var length = values[i].length - 1;
+    } else {
+      length = keys.length - 1
     }
 
-    for  ( var  j  =  0 ;  j  <=  длина ;  j ++ )  {
-      новыйОбъект [ ключи [ j ] ]  =  значения [ i ] [ j ] ;
+    for (var j = 0; j <= length; j++) {
+      newObject[keys[j]] = values[i][j];
     }
     
-    новый массив . нажать ( новый объект ) ;
+    newArray.push(newObject);
   }
   
-  вернуть  новый массив
-} ;
+  return newArray
+}
