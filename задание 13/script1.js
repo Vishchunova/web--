@@ -1,9 +1,9 @@
-var  groceries  =  [ 'чай' ,  'шпроты' ,  'печенье' ,  'сахар' ,  'чипсы' ] ;
-вар список  покупок  =  '' ;
+var groceries = ['чай', 'шпроты', 'печенье', 'сахар', 'чипсы'];
+var shoppingList = '';
 
-for  ( var  i  =  0 ;  i  <  бакалейные товары . длина ;  i ++ )  {
-  если  ( я  >=  1 )  {
-    список покупок  +=  ', ' ;
+for (var i = 0; i < groceries.length; i++) {
+  if (i >= 1) {
+    shoppingList += ', ';
   }
-  shoppingList  +=  бакалея [ i ] ;
+  shoppingList += groceries[i];
 }
