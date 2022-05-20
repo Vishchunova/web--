@@ -1,12 +1,15 @@
-var  getSortedArray  =  функция  ( масса ,  ключ )  {
-for  ( var  i  =  0 ;  i  <  масса . длина  -  1 ;  я ++ )  {
-for  ( var  j  =  i  +  1 ;  j  <  масса . длина ;  j ++ )  {
-если  ( масса [ i ] [ ключ ]  >  масса [ j ] [ ключ ] )  {
-переменная  своп  =  масса [ я ] ;
-масса [ i ]  =  масса [ j ] ;
-масса [ j ]  =  своп ;
-}
-}
-}
-возвращаемая  масса ;
+var getSortedArray = function (arrayOfObjects, key) {
+  var swap;
+  for (var i = 0; i < arrayOfObjects.length - 1; i ++) {
+    
+    for (var j = i + 1; j < arrayOfObjects.length; j ++) {
+      if (arrayOfObjects[j][key] < arrayOfObjects[i][key]) {
+        swap = arrayOfObjects[i];
+        arrayOfObjects[i] = arrayOfObjects[j];
+        arrayOfObjects[j] = swap;
+      }
+    }
+    
+  }
+  return (arrayOfObjects);
 }
