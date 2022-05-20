@@ -1,9 +1,9 @@
-пусть  вычислитьЗарплата  =  функция  ( грязнаяЗарплата )  {
-пусть  чистая зарплата ;
-если ( грязная зарплата >= 100000 ) {
-чистая зарплата  =  математика . круглый ( грязнаяЗарплата- ( грязнаяЗарплата * 0.45 ) ) ; _
-} иначе {
-чистая зарплата  =  математика . круглый ( грязная зарплата- ( грязная зарплата * 0,35 ) ) ;
+let calculateSalary = function (dirtySalary) {
+let cleanSalary;
+if(dirtySalary>=100000){
+cleanSalary = Math.round(dirtySalary-(dirtySalary*0.45));
+}else{
+cleanSalary = Math.round(dirtySalary-(dirtySalary*0.35));
 }
-вернуть  чистую зарплату ;
-} ;
+return cleanSalary;
+};
