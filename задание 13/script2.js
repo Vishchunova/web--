@@ -1,9 +1,9 @@
-переменные  числа  =  [ 2 ,  4 ,  7 ,  4 ,  7 ,  2 ] ;
-номер  переменной  =  4 ;
-вар  lastIndex =  - 1 ;
+var numbers = [2, 4, 7, 4, 7, 2];
+var number = 4;
+var lastIndex= -1;
 
-for ( var  я  =  0 ;  я  <  числа . длина ;  я ++ ) {
-  если ( числа [ я ]  ===  число ) {
-    последний индекс  =  я ;
+for(var i = 0; i < numbers.length; i++){
+  if(numbers[i] === number){
+    lastIndex = i;
   }
 }
